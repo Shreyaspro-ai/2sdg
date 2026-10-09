@@ -59,3 +59,13 @@ Tracks user messages in this ChatGPT conversation starting with the message afte
 > ---- we are doing sdg 6&11
 
 **Assistant action:** Developed AquaCity website concept, pages, challenges, inputs, and implementation recommendations.
+
+### ChatGPT Entry 002 — 2026-10-09 (IST; exact time unavailable)
+
+**Activity:** Refined AquaCity website outline to a strict maximum of 12 pages, with no additional routes.
+
+**User message (verbatim):**
+
+> fine,so make the outline such that the max web pages is 12, no additojal web pages
+
+**Assistant action:** Specified exactly 12 pages and required secondary interactions to use modals, tabs, and panels instead of extra pages.
