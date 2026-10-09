@@ -16,3 +16,24 @@ Tracks every user message in the Codex chat where tracking was requested, includ
 
 Tracks user messages in this ChatGPT conversation starting with the message after the user's request on 2026-10-09. Each entry should include IST date/time when available, exact user message, and brief activity description. Messages from other conversations and AI tools cannot be captured automatically. Entries are added when this assistant explicitly updates the repository; logging is not automatic or guaranteed across sessions.
 
+
+## 2026-10-09 — Entry 002
+
+**Time:** 16:07 IST (approx.)
+
+**Activity:** Checked whether the assistant could access the usage log.
+
+**User message:**
+
+> can u access ai_log.md?
+
+## 2026-10-09 — Entry 003
+
+**Time:** 16:07 IST (approx.)
+
+**Activity:** Requested ongoing per-message logging, including short questions, while preserving existing log entries.
+
+**User message:**
+
+> so, whenever i ask u a question, log it in, dont edit whats already there, just add it properly, even if its a tiny question
+
