@@ -89,3 +89,37 @@ Tracks user messages in this ChatGPT conversation starting with the message afte
 > Make the 12 page outline with direct alignment with sdg ,6&11
 
 **Assistant action:** Produced a twelve-page plan with dual-SDG targets, interactive features, and a citizen-report-to-impact workflow.
+
+## Claude Usage Log
+
+Tracks every user message in this Claude chat, including brief ones. Entries are added when Claude updates the repository during the chat; messages in other chats or tools are not captured. Dates and times use Asia/Calcutta (IST). Message text is recorded verbatim. Entries C001 and C002 were sent before tracking was requested and are included for completeness.
+
+### Claude Entry C001 — 2026-10-10, 09:55 IST
+
+**Activity:** Asked whether GitHub was connected.
+
+**User message (verbatim):**
+
+> is github connected
+
+**Assistant action:** Checked the connector directory and incorrectly reported that GitHub was not connected.
+
+### Claude Entry C002 — 2026-10-10, 09:56 IST
+
+**Activity:** Corrected Claude that GitHub was connected.
+
+**User message (verbatim):**
+
+> no, github is connected
+
+**Assistant action:** Listed the 11 repositories on the Shreyaspro-ai account and confirmed push access.
+
+### Claude Entry C003 — 2026-10-10, 09:57 IST
+
+**Activity:** Requested a separate Claude section in `ai_log.md` and logging of every message, however small.
+
+**User message (verbatim):**
+
+> 2sdg, make a separate section in the ai_log.md called claude and make sure to do this, whatever message i ask u, even a smll one, just log it
+
+**Assistant action:** Added this Claude Usage Log section to `ai_log.md` in `Shreyaspro-ai/2sdg` and logged the chat's messages so far.
