@@ -142,3 +142,36 @@ Logging is enabled for questions and substantive task requests in this Codex cha
 > alright so which cities are best for our project? try to access the repo and check the ai generated images and analyze them, then give me some examples of cities whos pics can work well when we replace them with the images in the website
 
 **Assistant action:** Inspected the repository's image asset inventory and the frontend's image usage, then researched real-world urban water-management and sustainable-city examples.
+
+
+### Codex Entry R009 — 2026-10-10 (IST; exact time not recorded)
+
+**Activity:** Requested a ZIP of the original reference images.
+
+**User message (verbatim):**
+
+> all the original images i gave u right, could add them in a zip file and move it into downloads
+
+**Assistant action:** Located all 13 original PNG files in Downloads; the turn was interrupted before archive creation.
+
+
+### Codex Entry R010 — 2026-10-10 (IST; exact time not recorded)
+
+**Activity:** Asked how many reference images were supplied.
+
+**User message (verbatim):**
+
+> did i give u 11 or 13?
+
+**Assistant action:** Confirmed that the user supplied 13 images, including two similar pairs.
+
+
+### Codex Entry R011 — 2026-10-10 (IST; exact time not recorded)
+
+**Activity:** Requested the images in original sequence in a Downloads ZIP.
+
+**User message (verbatim):**
+
+> fine, keep them into a zip in sequence and move it to downloads
+
+**Assistant action:** Created AquaCity-original-reference-images.zip with numbered names 01 through 13 in original attachment order; verified every image byte-for-byte.
