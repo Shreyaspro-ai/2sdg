@@ -414,3 +414,11 @@ Added on 2026-10-10 (IST). Original timestamps are unavailable. Text below recor
 **User message:**
 
 > for the water supply let the previous one be, rest all are the same, only change water supply to the previous one we had
+
+### Codex Entry R020 — 2026-10-10 (IST; exact time not recorded)
+
+**User message (verbatim):**
+
+> wesbitlnk is --    www.aquacity-app.lovable.app
+
+**Assistant action:** Updated the README website link to the address supplied by the user.

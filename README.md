@@ -4,9 +4,9 @@
 
 AquaCity is a hackathon prototype that connects **SDG 6 — Clean Water and Sanitation** with **SDG 11 — Sustainable Cities and Communities**. Users explore a visual city, make water and planning decisions, and review feedback and saved progress.
 
-[Visit the website](https://aquacity-shreyas-interface.sprymelon1.chatgpt.site/) · [Open the Lovable project](https://lovable.dev/projects/58777912-bf92-4805-832b-ee9fa41f77ee)
+[Visit the website](https://www.aquacity-app.lovable.app) · [Open the Lovable project](https://lovable.dev/projects/58777912-bf92-4805-832b-ee9fa41f77ee)
 
-The website link is the deployment supplied in the project conversation; it may differ from the latest repository revision.
+The website link is the deployment supplied by the project owner.
 
 ## What the project includes
 
