@@ -1,6 +1,8 @@
 # AI Usage Log
 
-Tracks user questions and substantive task requests, including brief ones. Messages about accessing, managing, enabling, disabling, or correcting this log are excluded. Entries are updated when the assistant responds in the relevant chat. Dates use Asia/Calcutta (IST); user text is recorded verbatim. Token counts and automatic capture across other chats are unavailable.
+> **Scope:** This is a curated record, not a complete audit of AI usage. At the user’s request, logging controls, PowerPoint requests, and image-generation/photograph-replacement discussions are omitted. Earlier removed entries remain in Git history. No fabricated interactions are included. Retrospective entries use message text available in this chat; precise dates and times are unavailable unless already recorded.
+
+Tracks genuine user messages available in this conversation, including brief ones. Messages about accessing, managing, enabling, disabling, or correcting this log are excluded. Entries are updated when the assistant responds in the relevant chat. Dates use Asia/Calcutta (IST); user text is recorded verbatim. Token counts and automatic capture across other chats are unavailable.
 
 ## ChatGPT Usage Log
 
@@ -85,7 +87,7 @@ Tracks substantive questions and task requests in this Claude chat, including br
 
 ## Codex Usage Log — 2026-10-10 (IST)
 
-Logging is enabled for questions and substantive task requests in this Codex chat, including short ones. Messages about accessing or managing this log are excluded. Messages sent while tracking was paused are not added retrospectively. Entry numbers are retained so existing references remain stable.
+Logging is enabled for questions and substantive task requests in this Codex chat, including short ones. Messages about accessing or managing this log are excluded. Available earlier messages are included retrospectively at the user’s request. Entry numbers are retained so existing references remain stable.
 
 ### Codex Entry R002 — 2026-10-10 (IST; exact time not recorded)
 
@@ -131,17 +133,6 @@ Logging is enabled for questions and substantive task requests in this Codex cha
 > fine, what is the best backend i could probably use for my website to make it functional
 
 **Assistant action:** Reviewed the current frontend and official backend documentation. Recommended Supabase with PostgreSQL, authentication, and server functions for saved city state and validated simulation actions; explained that simulation rules still need implementation.
-
-
-### Codex Entry R008 — 2026-10-10, approximately 11:00 IST
-
-**Activity:** Asked for an assessment of the AquaCity repository's AI-generated images and recommendations for real cities whose photographs could replace them.
-
-**User message (verbatim):**
-
-> alright so which cities are best for our project? try to access the repo and check the ai generated images and analyze them, then give me some examples of cities whos pics can work well when we replace them with the images in the website
-
-**Assistant action:** Inspected the repository's image asset inventory and the frontend's image usage, then researched real-world urban water-management and sustainable-city examples.
 
 
 ### Codex Entry R009 — 2026-10-10 (IST; exact time not recorded)
@@ -208,28 +199,6 @@ Logging is enabled for questions and substantive task requests in this Codex cha
 **Assistant action:** Inspected the built `dist` website, checked JavaScript syntax and image references, then created a first-pass revised ZIP with a demo-data disclaimer, backend-action notices, and review notes. Real-image replacement and a real backend remain outstanding.
 
 
-### Codex Entry R012 — 2026-10-10 (IST; exact time not recorded)
-
-**Activity:** Asked to replace generated scenery in the original AquaCity images with realistic imagery.
-
-**User message (verbatim):**
-
-> could you try and make those images not ai and make it look realistic
-
-**Assistant action:** After clarification, sourced licensed genuine photographs without visible watermarks and composited them into 13 reference images. Credits are provided separately; no AI image generation was used.
-
-
-### Codex Entry R013 — 2026-10-10 (IST; exact time not recorded)
-
-**Activity:** Requested that designs, text and labels be adapted to the genuine replacement photographs.
-
-**User message (verbatim):**
-
-> look, when u cahnge the iamges , right?, change the designs accoridngly, text, labels, so that they actually, use deep thinking for this
-
-**Assistant action:** Reworked scene labels and pointers, matched project and lesson descriptions to the photographs, identified actual locations, removed false historical before/after claims, and distinguished illustrative model values from real measurements. Packaged all 13 revised image references and photo credits in AquaCity-real-photo-redesign.zip in Downloads.
-
-
 ### Codex Entry R014 — 2026-10-10 (IST; exact time not recorded)
 
 **User message:**
@@ -266,15 +235,6 @@ Logging is enabled for questions and substantive task requests in this Codex cha
 **Assistant action:** Replaced 2sdg with 556 tracked files from zip-peek-in-browser while preserving ai_log.md exactly. Pushed commit c65973620dbd3ded769bcd8f00e415d1ba825bba to main.
 
 
-### Codex Entry R018 — 2026-10-10 (IST; exact time not recorded)
-
-**User message (verbatim):**
-
-> include logging, of every message from now
-
-**Assistant action:** Enabled logging of every subsequent user message, including logging-control messages, starting with this request.
-
-
 ### Codex Entry R019 — 2026-10-10 (IST; exact time not recorded)
 
 **User message (verbatim):**
@@ -283,6 +243,174 @@ Logging is enabled for questions and substantive task requests in this Codex cha
 
 **Assistant action:** Reviewed source commit 513451fa6aa9c1978f5a332b47130ad784065835, which adds a migration fixing simulation action reason-array string concatenation with explicit text casts. Synchronized the three changed migration files into 2sdg; verified all 558 source files match and preserved all prior AI log entries. Database migration was copied, not executed against a live database.
 
-##lovablw
+## Retrospective messages from the available Codex conversation
 
-https://lovable.dev/projects/58777912-bf92-4805-832b-ee9fa41f77ee
+Added on 2026-10-10 (IST). Original timestamps are unavailable. Text below records requests, not proof that every requested action was completed. Links are normalized to plain URLs where the original used Markdown. Entries already present above are not repeated.
+
+### Retrospective Entry H001
+
+**User message:**
+
+> can u access my github repo ---    https://github.com/Shreyaspro-ai/2sdg?
+
+### Retrospective Entry H002
+
+**User message:**
+
+> ok, listen
+
+### Retrospective Entry H003
+
+**User message:**
+
+> https://chatgpt.com/share/6ac9206e-104c-83ee-8477-8f15ad00baa8 , this the chat on chatgpt cloud, its not responding , could u find out why
+
+### Retrospective Entry H004
+
+**User message:**
+
+> it said ASB history WebSocket read timed out in chatgpt
+
+### Retrospective Entry H005
+
+**User message:**
+
+> its fine, no worries, ill give u the images ok? u have to make a working html website , u have to separate the components such as images ,, texts, tables, everything and also make sure to not use the whole image as a backdrop and dont use invisible links, ok? and one more thing, make the entire website, same as the images i give u, dont change anything, whatever it is, it should be same as the image
+
+### Retrospective Entry H006
+
+**User message:**
+
+> these are the images, pls dont even mess a single detail, dont do anything about the simultors,etc, ill do that in the backend myself but make sure that other redundnt buttons are removed , and nay button clicked,(excpt a few like simulators,etc ,,should lead into these web pages only, no new one.
+
+### Retrospective Entry H007
+
+**User message:**
+
+> continue
+
+### Retrospective Entry H008
+
+**User message:**
+
+> can u move the source code to dwnloads
+
+### Retrospective Entry H009
+
+**User message:**
+
+> carefully analyse the website in this and the template i gave, the visuals dont match completely, i need u to xactly pin point each and every minute detail and make it same as the images i had given to you
+
+### Retrospective Entry H010
+
+**User message:**
+
+> no, ignore the animations,etc, , but the visuals dont match the images i gave u
+
+### Retrospective Entry H011
+
+**User message:**
+
+> pls, look, for my hackathon, i need it to be 99.99% pixel perfect, u gotta undertsand like text alignements, pics, ,etc, pls do a deep analysis !
+
+### Retrospective Entry H012
+
+**User message:**
+
+> on the other side, pls explain our project plan and how is it related to the topic,, ill tell u when to continue
+
+### Retrospective Entry H013
+
+**User message:**
+
+> now, draft an email explaining our plan, dont go in detail web page wise, just a brief plan of what it is and why sdg 6&11 dont go together and how are they related to the project
+
+### Retrospective Entry H014
+
+**User message:**
+
+> u sure what u said in the email is 100% right?
+
+### Retrospective Entry H015
+
+**User message:**
+
+> yes, sustainable cities so, u sure that our website and the email is 100% true, pls verify it urself
+
+### Retrospective Entry H016
+
+**User message:**
+
+> no, draft the email as a plan change
+
+### Retrospective Entry H017
+
+**User message:**
+
+> ok, now continue the pixel to pixel changes you were doing
+
+### Retrospective Entry H018
+
+**User message:**
+
+> now, can u acces my github repos,etc,etc because i connected my github
+
+### Retrospective Entry H019
+
+**User message:**
+
+> what does our website do
+
+### Retrospective Entry H020
+
+**User message:**
+
+> now, we have to go for an audit to the hackathon judges, we gotta explain progress, features buiilt, how well the data is realised and code ownership
+
+### Retrospective Entry H021
+
+**User message:**
+
+> this our website, so now, could you please tell us all the files in it?
+
+### Retrospective Entry H022
+
+**User message:**
+
+> like, explain the main part, igonre assets,etc, explain it in such a way that it feels like we have done it on our own and we used ai to enhance it, like divide, explain
+
+### Retrospective Entry H023
+
+**User message:**
+
+> no, i have 4 teammates, so divide it among 4 teammtates who explain it
+
+### Retrospective Entry H024
+
+**User message:**
+
+> now, can u push the repo, the zip file i gave u to github?,
+
+### Retrospective Entry H025
+
+**User message:**
+
+> ok, fine,, could u  make the souce code with this instead and move it to downloads, dont commit to github though
+
+### Retrospective Entry H026
+
+**User message:**
+
+> but, lsiten, dont label things like refernce city, demo data, ill anyways change backend in lovable and chnge shapes, format everything proeprly and neatly,
+
+### Retrospective Entry H027
+
+**User message:**
+
+> ok, go ahead
+
+### Retrospective Entry H028
+
+**User message:**
+
+> for the water supply let the previous one be, rest all are the same, only change water supply to the previous one we had
