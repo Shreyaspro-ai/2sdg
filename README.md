@@ -63,64 +63,62 @@ Artwork and thumbnails are loaded from local assets.
 
 ## 🛠️ Technology and architecture
 
-AquaCity is currently delivered as a **static front end** in the `dist/` directory.
+### Agreed application stack
 
-- **HTML** provides the page structure.
-- **CSS** provides layout, styling, and responsive scaling.
-- **JavaScript** handles view navigation and front-end interactions.
-- **SVG and HTML elements** are used for interface components such as charts, panels, and controls.
-- **Local assets** provide artwork and imagery.
+The intended stack for the application is:
 
-The current repository snapshot does not include a separate application source tree, dependency manifest, automated build pipeline, database, or server-side API. No package installation or compilation step is required to view the existing prototype.
+- **React.js** — component-based UI and reusable views.
+- **Vite** — development server and production build tooling.
+- **Tailwind CSS** — utility-first styling for layout, spacing, responsive behaviour, and common visual patterns.
+- **Custom CSS** — project-specific styling and details that are clearer to maintain outside utility classes.
+- **JavaScript (and JSX)** — application logic and React components.
+
+React, Vite, Tailwind CSS, and custom CSS are the **planned application stack**. The current committed website in `dist/` is still a static front-end artifact: this repository snapshot does not yet contain a React source tree, `package.json`, Tailwind/Vite configuration, or an automated build pipeline. The documentation distinguishes the intended stack from what is currently present so it does not imply that the migration has already been completed.
+
+Once the React/Vite application is set up, its source code should live separately from generated build output (for example, in `src/`), and Vite's production output can be generated into `dist/`. Generated files should not be treated as the main source of truth for application development.
 
 ## 🚀 Run locally
 
-### Requirements
+### Current static prototype
 
-- A modern web browser.
-- Python 3, or another static HTTP server, for the recommended serving option.
-
-### Option 1: Open the HTML file
-
-1. Clone or download this repository.
-2. Open `dist/index.html` in your browser.
-
-Some browsers restrict certain asset-loading behaviour when a page is opened directly from the filesystem. If anything fails to load, use the local-server option below.
-
-### Option 2: Start a local HTTP server
-
-Clone the repository and move into its directory:
+For the currently committed version, a modern browser is enough. You can open `dist/index.html` directly, or serve the existing static files with Python:
 
 ```bash
 git clone https://github.com/Shreyaspro-ai/2sdg.git
 cd 2sdg
-```
-
-Start a server that serves the `dist/` folder:
-
-```bash
 python -m http.server 8000 --directory dist
 ```
 
-If your system uses the `python3` command, run:
+Then open [http://localhost:8000](http://localhost:8000). If your system uses `python3`, replace `python` with `python3`. Stop the server with `Ctrl+C`.
 
-```bash
-python3 -m http.server 8000 --directory dist
-```
+### Planned React + Vite development setup
 
-Open [http://localhost:8000](http://localhost:8000) in your browser. Stop the server with `Ctrl+C` in the terminal.
+The commands below describe the intended workflow **after** the React/Vite app and its configuration files have been added; they will not work in the current repository snapshot yet.
+
+The future development workflow will be:
+
+1. Install a supported Node.js LTS release.
+2. Install the project's npm dependencies.
+3. Start Vite's development server.
+4. Use the production build command to generate the deployable `dist/` output.
+
+Once implemented, the exact commands will be documented from the scripts in `package.json` (typically `npm install`, `npm run dev`, and `npm run build`). Tailwind CSS must be configured for the chosen version of Vite/Tailwind before those commands can be considered ready.
 
 ## 🗂️ Repository structure
 
 ```text
 2sdg/
-├── dist/
+├── dist/                     # Current static website/build artifact
 │   ├── index.html
 │   ├── app.js
 │   ├── styles.css
 │   ├── assets/
 │   ├── vendor/
 │   └── supporting JavaScript and CSS files
+├── src/                       # Planned React components and application source
+├── package.json               # Planned npm scripts and dependencies
+├── vite.config.js             # Planned Vite configuration
+├── tailwind.config.js         # Configuration may vary by Tailwind version
 ├── AquaCity-website-precision-revision.zip
 ├── WEBSITE-README.md
 ├── PRECISION-REVISION.md
@@ -176,18 +174,21 @@ Treat all displayed metrics and workflow outcomes as illustrative until they are
 
 ## 🧑‍💻 Development and contribution
 
-The simplest way to explore or modify the current prototype is to edit the relevant files in `dist/` and reload the site in your browser.
+For the current static prototype, the files in `dist/` can be inspected and served directly. For ongoing feature development, the intended direction is to move application work into React components and use Vite for development and builds, with Tailwind CSS plus custom CSS for styling. The React/Vite setup is not present in the repository snapshot yet.
 
-When making changes:
+When implementing the planned stack:
 
-1. Keep the distinction between demonstration UI and real functionality clear.
-2. Avoid presenting sample values as live or independently verified data.
-3. Check navigation and the affected view after each change.
-4. Test at more than one browser width.
-5. Prefer accessible labels, keyboard-operable controls, and clear feedback for interactive elements.
-6. Document new actions and any backend assumptions.
+1. Keep reusable UI and page views in React components under `src/`.
+2. Use Vite for the local development server and production build.
+3. Configure Tailwind CSS explicitly and keep custom CSS for project-specific styling.
+4. Treat `dist/` as generated output once the build pipeline exists; avoid hand-editing generated files as the normal development workflow.
+5. Keep demonstration UI clearly distinguished from real functionality.
+6. Avoid presenting sample values as live or independently verified data.
+7. Check navigation and affected views after changes, including responsive layouts.
+8. Prefer accessible labels, keyboard-operable controls, and clear feedback.
+9. Document new actions, data sources, and backend assumptions.
 
-Because the repository snapshot does not include a defined build or test command, do not assume that a package-manager build or automated test suite is available.
+Until the application scaffold and scripts are committed, there is no verified npm build or automated test command to run.
 
 ## 🔭 Roadmap
 
