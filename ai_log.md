@@ -1,16 +1,6 @@
 # AI Usage Log
 
-Tracks every user message in the Codex chat where tracking was requested, including brief messages, starting with the request below. Updated when the assistant responds in that chat; other chats are outside this log's scope. Dates use Asia/Calcutta (IST). Message text is recorded verbatim. Token counts and usage in other AI tools are not available through this log.
-
-## 2026-10-09 — Entry 001
-
-**Activity:** Set up AI usage tracking.
-
-**User message:**
-
-> can u add an ai_log.md  , to track my ai usage, so every message i type now, can u pls track it, even if its a small message?
-
-**Assistant action:** Created `ai_log.md` in `Shreyaspro-ai/2sdg` and enabled per-message logging for this chat.
+Tracks user questions and substantive task requests, including brief ones. Logging-control messages, including requests to turn tracking on or off, are excluded. Entries are updated when the assistant responds in the relevant chat. Dates use Asia/Calcutta (IST); user text is recorded verbatim. Token counts and automatic capture across other chats are unavailable.
 
 ## ChatGPT Usage Log
 
@@ -26,17 +16,6 @@ Tracks user messages in this ChatGPT conversation starting with the message afte
 **User message:**
 
 > can u access ai_log.md?
-
-## 2026-10-09 — Entry 003
-
-**Time:** 16:07 IST (approx.)
-
-**Activity:** Requested ongoing per-message logging, including short questions, while preserving existing log entries.
-
-**User message:**
-
-> so, whenever i ask u a question, log it in, dont edit whats already there, just add it properly, even if its a tiny question
-
 
 ### ChatGPT Entry 001 — 2026-10-09, approximately 19:03 IST
 
@@ -92,7 +71,7 @@ Tracks user messages in this ChatGPT conversation starting with the message afte
 
 ## Claude Usage Log
 
-Tracks every user message in this Claude chat, including brief ones. Entries are added when Claude updates the repository during the chat; messages in other chats or tools are not captured. Dates and times use Asia/Calcutta (IST). Message text is recorded verbatim. Entries C001 and C002 were sent before tracking was requested and are included for completeness.
+Tracks substantive questions and task requests in this Claude chat, including brief ones; logging-control messages are excluded. Entries are added when Claude updates the repository during the chat; messages in other chats or tools are not captured. Dates and times use Asia/Calcutta (IST). Message text is recorded verbatim. Entries C001 and C002 were sent before tracking was requested and are included for completeness.
 
 ### Claude Entry C001 — 2026-10-10, 09:55 IST
 
@@ -114,31 +93,9 @@ Tracks every user message in this Claude chat, including brief ones. Entries are
 
 **Assistant action:** Listed the 11 repositories on the Shreyaspro-ai account and confirmed push access.
 
-### Claude Entry C003 — 2026-10-10, 09:57 IST
+## Codex Usage Log — 2026-10-10 (IST)
 
-**Activity:** Requested a separate Claude section in `ai_log.md` and logging of every message, however small.
-
-**User message (verbatim):**
-
-> 2sdg, make a separate section in the ai_log.md called claude and make sure to do this, whatever message i ask u, even a smll one, just log it
-
-**Assistant action:** Added this Claude Usage Log section to `ai_log.md` in `Shreyaspro-ai/2sdg` and logged the chat's messages so far.
-
-
-## Codex Logging Resumed — 2026-10-10 (IST)
-
-Logging resumes for user messages in this Codex chat, including short messages, starting with the request below. Earlier messages sent while logging was paused are not added retrospectively. Existing entries remain unchanged.
-
-### Codex Entry R001 — 2026-10-10 (IST; exact time not recorded)
-
-**Activity:** Requested resumption of logging every user message.
-
-**User message (verbatim):**
-
-> from now, whatever message i ask u just log it in the ai_log.md ok?
-
-**Assistant action:** Resumed per-message logging in this chat and appended this entry to the repository log.
-
+Logging is enabled for questions and substantive task requests in this Codex chat, including short ones. Logging-control messages are excluded. Messages sent while tracking was paused are not added retrospectively. Entry numbers are retained so existing references remain stable.
 
 ### Codex Entry R002 — 2026-10-10 (IST; exact time not recorded)
 
@@ -186,17 +143,6 @@ Logging resumes for user messages in this Codex chat, including short messages, 
 **Assistant action:** Fetched and read `ai_log.md` from the repository, then appended this entry while preserving the existing log content.
 
 
-### Codex Entry R004 — 2026-10-10 (IST; exact time not recorded)
-
-**Activity:** Reaffirmed that every question or message in this chat, long or short, should be logged in `ai_log.md`.
-
-**User message (verbatim):**
-
-> whatever questions i ask here please log it onto the ai_log.md no matter which question, long or short.
-
-**Assistant action:** Appended this entry while preserving all existing log content.
-
-
 ### Codex Entry R005 — 2026-10-10 (IST; exact time not recorded)
 
 **Activity:** Reported being unable to find the newly added entry in `ai_log.md`.
@@ -205,15 +151,6 @@ Logging resumes for user messages in this Codex chat, including short messages, 
 
 > i cannot find the entry
 
-**Assistant action:** Re-fetched the file, confirmed R004 is present near the bottom, and is providing the direct link and navigation guidance.
+**Assistant action:** Re-fetched the file, confirmed the requested entry was present at that time, and provided the direct link and navigation guidance. That logging-control entry was subsequently removed at the user's request.
 
 
-### Codex Entry R006 — 2026-10-10 (IST; exact time not recorded)
-
-**Activity:** Requested resumption of the AI log tracker.
-
-**User message (verbatim):**
-
-> turn on the ai log tracker again
-
-**Assistant action:** Resumed logging every user message in this Codex chat, including short messages, starting with this request. Messages sent during the pause are not added retrospectively. Appended this entry and pushed the updated log to GitHub.
