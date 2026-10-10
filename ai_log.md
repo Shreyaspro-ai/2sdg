@@ -154,3 +154,14 @@ Logging is enabled for questions and substantive task requests in this Codex cha
 **Assistant action:** Re-fetched the file, confirmed the requested entry was present at that time, and provided the direct link and navigation guidance. That logging-control entry was subsequently removed at the user's request.
 
 
+
+
+### Codex Entry R007 — 2026-10-10 (IST; exact time not recorded)
+
+**Activity:** Asked which backend would best make AquaCity functional.
+
+**User message (verbatim):**
+
+> fine, what is the best backend i could probably use for my website to make it functional
+
+**Assistant action:** Reviewed the current frontend and official backend documentation. Recommended Supabase with PostgreSQL, authentication, and server functions for saved city state and validated simulation actions; explained that simulation rules still need implementation.
