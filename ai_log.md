@@ -149,3 +149,15 @@ Logging resumes for user messages in this Codex chat, including short messages, 
 > ok, so now, explain the plan for our website
 
 **Assistant action:** Explained the virtual city concept, user journey, planned functionality, SDG alignment, and current implementation status.
+
+### Claude Entry C004 — 2026-10-10, 10:41 IST
+
+**Activity:** Requested that the AquaCity website code files be split four ways, with a simple presentation script for four people explaining each file.
+
+**User message (verbatim):**
+
+> Hey, could you split the code files 4 ways and make a script for 4 people to explain each code file. Keep it simple. And make it ft.
+
+**Attachment:** `AquaCity-website-precision-revision.zip` (AquaCity website code).
+
+**Assistant action:** Split the 13 code files into four parts (skeleton, brain, design match, motion) and wrote the "AquaCity Code Walkthrough Script" doc with a short script per speaker.
