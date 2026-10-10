@@ -197,3 +197,12 @@ Logging is enabled for questions and substantive task requests in this Codex cha
 > if i upload all the files will you be able to analyze them and adjust them according to the need
 
 **Assistant action:** Confirmed that the user can upload a ZIP or the full project folder, and outlined a review-and-revision workflow focused on functionality, SDG 6/11 alignment, real-image integration, and the hackathon's human-work requirement.
+
+
+### Codex Entry R011 — 2026-10-10 (IST)
+
+**Activity:** Uploaded `AquaCity-website-even.zip` for review.
+
+**User message:** Uploaded the ZIP without accompanying text, following the request to analyze and revise the website.
+
+**Assistant action:** Inspected the built `dist` website, checked JavaScript syntax and image references, then created a first-pass revised ZIP with a demo-data disclaimer, backend-action notices, and review notes. Real-image replacement and a real backend remain outstanding.
