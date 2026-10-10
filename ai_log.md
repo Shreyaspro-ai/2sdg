@@ -264,3 +264,12 @@ Logging is enabled for questions and substantive task requests in this Codex cha
 > fine, can u extract that, delete veeyrhting in 2sdg, except ai_log.md and replace every file in 2sdg with this repo
 
 **Assistant action:** Replaced 2sdg with 556 tracked files from zip-peek-in-browser while preserving ai_log.md exactly. Pushed commit c65973620dbd3ded769bcd8f00e415d1ba825bba to main.
+
+
+### Codex Entry R018 — 2026-10-10 (IST; exact time not recorded)
+
+**User message (verbatim):**
+
+> include logging, of every message from now
+
+**Assistant action:** Enabled logging of every subsequent user message, including logging-control messages, starting with this request.
