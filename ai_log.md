@@ -422,3 +422,11 @@ Added on 2026-10-10 (IST). Original timestamps are unavailable. Text below recor
 > wesbitlnk is --    www.aquacity-app.lovable.app
 
 **Assistant action:** Updated the README website link to the address supplied by the user.
+
+### Codex Entry R021 — 2026-10-10 (IST; exact time not recorded)
+
+**User message (link normalized to plain URL):**
+
+> https://aquacity-app.lovable.app        this is the websitr
+
+**Assistant action:** Corrected the README website link to https://aquacity-app.lovable.app, without www.
