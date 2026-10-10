@@ -1,6 +1,12 @@
 # AquaCity front end
 
-Open `dist/index.html` directly, or serve the `dist` folder with any static web server. No installation or build step is required.
+## Run the React/Vite app
+
+From the repository root, run `npm install` and then `npm run dev`. Use the local URL printed by Vite. Run `npm run build` to create a production build; `npm run preview` serves that build locally.
+
+The eleven existing dashboard views are currently rendered by the audited legacy view renderer loaded from `dist/` inside a React-owned shell. This compatibility layer is intentional during migration so the visual reconstruction and reference assets remain available while the views are moved into React components. The build is configured not to clear the existing `dist/` assets during this phase.
+
+The `dist/index.html` file can still be served directly as the original static prototype if needed.
 
 The site contains 11 views based on the supplied images: City Command, City Map, Water Supply, Sanitation, City Planning, Projects, Crisis Center, Missions, Planning Simulator, Learning Lab and City Progress. The references show pages 2–12; no Welcome design was supplied. Duplicate reference images are represented as modal states, not extra pages. Welcome is retained as a visible non-interactive label because no Welcome page was supplied; redundant pagination arrows are omitted.
 

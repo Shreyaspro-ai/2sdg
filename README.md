@@ -73,36 +73,26 @@ The intended stack for the application is:
 - **Custom CSS** — project-specific styling and details that are clearer to maintain outside utility classes.
 - **JavaScript (and JSX)** — application logic and React components.
 
-React, Vite, Tailwind CSS, and custom CSS are the **planned application stack**. The current committed website in `dist/` is still a static front-end artifact: this repository snapshot does not yet contain a React source tree, `package.json`, Tailwind/Vite configuration, or an automated build pipeline. The documentation distinguishes the intended stack from what is currently present so it does not imply that the migration has already been completed.
+The repository now includes a working React/Vite/Tailwind scaffold and npm scripts. React owns the app shell, Vite serves and builds the entry point, and Tailwind utilities are available alongside the existing custom styles. To preserve the carefully reconstructed eleven-view design during the migration, the existing view renderer and motion/reference modules are loaded as a compatibility layer from `dist/`. **This is an incremental migration, not a claim that every legacy view has already been rewritten as a React component.**
 
-Once the React/Vite application is set up, its source code should live separately from generated build output (for example, in `src/`), and Vite's production output can be generated into `dist/`. Generated files should not be treated as the main source of truth for application development.
+The next engineering phase is to move each view and its interactions into reusable React components, then move the required legacy artwork and vendor assets into a stable public-assets location. The build currently preserves the existing `dist/` reference assets rather than deleting them during the transition.
 
 ## 🚀 Run locally
 
-### Current static prototype
+### React + Vite development
 
-For the currently committed version, a modern browser is enough. You can open `dist/index.html` directly, or serve the existing static files with Python:
+Install a current Node.js LTS release, then run:
 
 ```bash
 git clone https://github.com/Shreyaspro-ai/2sdg.git
 cd 2sdg
-python -m http.server 8000 --directory dist
+npm install
+npm run dev
 ```
 
-Then open [http://localhost:8000](http://localhost:8000). If your system uses `python3`, replace `python` with `python3`. Stop the server with `Ctrl+C`.
+Use the local URL printed by Vite. To create a production build, run `npm run build`; to preview the built site, run `npm run preview`. The build preserves the existing reference files in `dist/` while the legacy renderer is being migrated, so review the output and asset paths before changing deployment settings.
 
-### Planned React + Vite development setup
-
-The commands below describe the intended workflow **after** the React/Vite app and its configuration files have been added; they will not work in the current repository snapshot yet.
-
-The future development workflow will be:
-
-1. Install a supported Node.js LTS release.
-2. Install the project's npm dependencies.
-3. Start Vite's development server.
-4. Use the production build command to generate the deployable `dist/` output.
-
-Once implemented, the exact commands will be documented from the scripts in `package.json` (typically `npm install`, `npm run dev`, and `npm run build`). Tailwind CSS must be configured for the chosen version of Vite/Tailwind before those commands can be considered ready.
+For the original static-only experience, the files in `dist/` can still be served by a static web server.
 
 ## 🗂️ Repository structure
 
@@ -115,10 +105,13 @@ Once implemented, the exact commands will be documented from the scripts in `pac
 │   ├── assets/
 │   ├── vendor/
 │   └── supporting JavaScript and CSS files
-├── src/                       # Planned React components and application source
-├── package.json               # Planned npm scripts and dependencies
-├── vite.config.js             # Planned Vite configuration
-├── tailwind.config.js         # Configuration may vary by Tailwind version
+├── index.html                 # Vite application entry point
+├── src/
+│   ├── main.jsx                # React application shell and legacy compatibility loader
+│   └── index.css               # Tailwind utilities and React-shell styles
+├── package.json                # npm scripts and React/Vite/Tailwind dependencies
+├── vite.config.js              # Vite + React + Tailwind plugin configuration
+├── .gitignore
 ├── AquaCity-website-precision-revision.zip
 ├── WEBSITE-README.md
 ├── PRECISION-REVISION.md
@@ -174,9 +167,9 @@ Treat all displayed metrics and workflow outcomes as illustrative until they are
 
 ## 🧑‍💻 Development and contribution
 
-For the current static prototype, the files in `dist/` can be inspected and served directly. For ongoing feature development, the intended direction is to move application work into React components and use Vite for development and builds, with Tailwind CSS plus custom CSS for styling. The React/Vite setup is not present in the repository snapshot yet.
+The React/Vite/Tailwind scaffold is now present. The legacy renderer is temporarily retained as a compatibility layer to protect the current visual reconstruction while migration proceeds.
 
-When implementing the planned stack:
+For ongoing feature development:
 
 1. Keep reusable UI and page views in React components under `src/`.
 2. Use Vite for the local development server and production build.
@@ -188,7 +181,7 @@ When implementing the planned stack:
 8. Prefer accessible labels, keyboard-operable controls, and clear feedback.
 9. Document new actions, data sources, and backend assumptions.
 
-Until the application scaffold and scripts are committed, there is no verified npm build or automated test command to run.
+Run `npm run build` after changes to check that the Vite production build completes. The full view-by-view React migration and automated interaction tests remain future work.
 
 ## 🔭 Roadmap
 
