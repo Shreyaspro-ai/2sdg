@@ -1,21 +1,11 @@
 # AI Usage Log
 
-Tracks user questions and substantive task requests, including brief ones. Logging-control messages, including requests to turn tracking on or off, are excluded. Entries are updated when the assistant responds in the relevant chat. Dates use Asia/Calcutta (IST); user text is recorded verbatim. Token counts and automatic capture across other chats are unavailable.
+Tracks user questions and substantive task requests, including brief ones. Messages about accessing, managing, enabling, disabling, or correcting this log are excluded. Entries are updated when the assistant responds in the relevant chat. Dates use Asia/Calcutta (IST); user text is recorded verbatim. Token counts and automatic capture across other chats are unavailable.
 
 ## ChatGPT Usage Log
 
 Tracks user messages in this ChatGPT conversation starting with the message after the user's request on 2026-10-09. Each entry should include IST date/time when available, exact user message, and brief activity description. Messages from other conversations and AI tools cannot be captured automatically. Entries are added when this assistant explicitly updates the repository; logging is not automatic or guaranteed across sessions.
 
-
-## 2026-10-09 — Entry 002
-
-**Time:** 16:07 IST (approx.)
-
-**Activity:** Checked whether the assistant could access the usage log.
-
-**User message:**
-
-> can u access ai_log.md?
 
 ### ChatGPT Entry 001 — 2026-10-09, approximately 19:03 IST
 
@@ -71,7 +61,7 @@ Tracks user messages in this ChatGPT conversation starting with the message afte
 
 ## Claude Usage Log
 
-Tracks substantive questions and task requests in this Claude chat, including brief ones; logging-control messages are excluded. Entries are added when Claude updates the repository during the chat; messages in other chats or tools are not captured. Dates and times use Asia/Calcutta (IST). Message text is recorded verbatim. Entries C001 and C002 were sent before tracking was requested and are included for completeness.
+Tracks substantive questions and task requests in this Claude chat, including brief ones; messages about accessing or managing this log are excluded. Entries are added when Claude updates the repository during the chat; messages in other chats or tools are not captured. Dates and times use Asia/Calcutta (IST). Message text is recorded verbatim. Entries C001 and C002 were sent before tracking was requested and are included for completeness.
 
 ### Claude Entry C001 — 2026-10-10, 09:55 IST
 
@@ -95,7 +85,7 @@ Tracks substantive questions and task requests in this Claude chat, including br
 
 ## Codex Usage Log — 2026-10-10 (IST)
 
-Logging is enabled for questions and substantive task requests in this Codex chat, including short ones. Logging-control messages are excluded. Messages sent while tracking was paused are not added retrospectively. Entry numbers are retained so existing references remain stable.
+Logging is enabled for questions and substantive task requests in this Codex chat, including short ones. Messages about accessing or managing this log are excluded. Messages sent while tracking was paused are not added retrospectively. Entry numbers are retained so existing references remain stable.
 
 ### Codex Entry R002 — 2026-10-10 (IST; exact time not recorded)
 
@@ -130,17 +120,6 @@ Logging is enabled for questions and substantive task requests in this Codex cha
 > Mininmise the script. Keep the explanation simple, just what each code file does, and how it affects the website overall.
 
 **Assistant action:** Cut each speaker's part down to one or two lines per file (what it does and its effect on the site) and updated the timings to about 2 to 3 minutes total.
-
-
-### Codex Entry R003 — 2026-10-10, 10:45 IST
-
-**Activity:** Asked whether the assistant could access `ai_log.md`.
-
-**User message (verbatim):**
-
-> do you have access to ai_log.md
-
-**Assistant action:** Fetched and read `ai_log.md` from the repository, then appended this entry while preserving the existing log content.
 
 
 ### Codex Entry R007 — 2026-10-10 (IST; exact time not recorded)
