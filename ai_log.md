@@ -175,3 +175,14 @@ Logging is enabled for questions and substantive task requests in this Codex cha
 > fine, keep them into a zip in sequence and move it to downloads
 
 **Assistant action:** Created AquaCity-original-reference-images.zip with numbered names 01 through 13 in original attachment order; verified every image byte-for-byte.
+
+
+### Codex Entry R009 — 2026-10-10, 12:29 IST
+
+**Activity:** Asked whether replacement images in the AquaCity website must use the `.webp` file extension or whether JPEG/PNG images are also supported.
+
+**User message (verbatim):**
+
+> is it necessary for the files to be of .webp or can jpg/png work too?
+
+**Assistant response summary:** Explained that browsers support WebP, JPEG and PNG, but if the site's code references fixed `.webp` filenames, replacements should keep those names or the code references must be updated. Renaming a JPEG/PNG file to `.webp` does not convert its format.
