@@ -228,3 +228,39 @@ Logging is enabled for questions and substantive task requests in this Codex cha
 > look, when u cahnge the iamges , right?, change the designs accoridngly, text, labels, so that they actually, use deep thinking for this
 
 **Assistant action:** Reworked scene labels and pointers, matched project and lesson descriptions to the photographs, identified actual locations, removed false historical before/after claims, and distinguished illustrative model values from real measurements. Packaged all 13 revised image references and photo credits in AquaCity-real-photo-redesign.zip in Downloads.
+
+
+### Codex Entry R014 — 2026-10-10 (IST; exact time not recorded)
+
+**User message:**
+
+> remove all singapore/marina bay related stuff, where it's necessary, u can keep a few ai images, only a few, and also remove the duplicate treatment upgrade card
+
+**Assistant action:** Updated city imagery and labels, reused three original city illustrations and removed the initially open duplicate treatment review panel. Updated the source ZIP in Downloads.
+
+
+### Codex Entry R015 — 2026-10-10 (IST; exact time not recorded)
+
+**User message:**
+
+> add this also to the websote, quickly
+
+**Assistant action:** Added the attached welcome-page design as native HTML/CSS components with login/signup controls and backend authentication hooks. Updated the source ZIP in Downloads.
+
+
+### Codex Entry R016 — 2026-10-10 (IST; exact time not recorded)
+
+**User message:**
+
+> can u access this repo   https://github.com/Shreyaspro-ai/zip-peek-in-browser.git
+
+**Assistant action:** Verified access and read/write/admin permissions through the connected GitHub account.
+
+
+### Codex Entry R017 — 2026-10-10 (IST; exact time not recorded)
+
+**User message:**
+
+> fine, can u extract that, delete veeyrhting in 2sdg, except ai_log.md and replace every file in 2sdg with this repo
+
+**Assistant action:** Replaced 2sdg with 556 tracked files from zip-peek-in-browser while preserving ai_log.md exactly. Pushed commit c65973620dbd3ded769bcd8f00e415d1ba825bba to main.
