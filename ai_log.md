@@ -161,3 +161,13 @@ Logging resumes for user messages in this Codex chat, including short messages, 
 **Attachment:** `AquaCity-website-precision-revision.zip` (AquaCity website code).
 
 **Assistant action:** Split the 13 code files into four parts (skeleton, brain, design match, motion) and wrote the "AquaCity Code Walkthrough Script" doc with a short script per speaker.
+
+### Claude Entry C005 — 2026-10-10, 10:44 IST
+
+**Activity:** Asked to shorten the AquaCity walkthrough script to just what each code file does and how it affects the website.
+
+**User message (verbatim):**
+
+> Mininmise the script. Keep the explanation simple, just what each code file does, and how it affects the website overall.
+
+**Assistant action:** Cut each speaker's part down to one or two lines per file (what it does and its effect on the site) and updated the timings to about 2 to 3 minutes total.
