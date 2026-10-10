@@ -138,3 +138,14 @@ Logging resumes for user messages in this Codex chat, including short messages, 
 > from now, whatever message i ask u just log it in the ai_log.md ok?
 
 **Assistant action:** Resumed per-message logging in this chat and appended this entry to the repository log.
+
+
+### Codex Entry R002 — 2026-10-10 (IST; exact time not recorded)
+
+**Activity:** Requested an explanation of the AquaCity website plan.
+
+**User message (verbatim):**
+
+> ok, so now, explain the plan for our website
+
+**Assistant action:** Explained the virtual city concept, user journey, planned functionality, SDG alignment, and current implementation status.
