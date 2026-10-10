@@ -131,3 +131,14 @@ Logging is enabled for questions and substantive task requests in this Codex cha
 > fine, what is the best backend i could probably use for my website to make it functional
 
 **Assistant action:** Reviewed the current frontend and official backend documentation. Recommended Supabase with PostgreSQL, authentication, and server functions for saved city state and validated simulation actions; explained that simulation rules still need implementation.
+
+
+### Codex Entry R008 — 2026-10-10, approximately 11:00 IST
+
+**Activity:** Asked for an assessment of the AquaCity repository's AI-generated images and recommendations for real cities whose photographs could replace them.
+
+**User message (verbatim):**
+
+> alright so which cities are best for our project? try to access the repo and check the ai generated images and analyze them, then give me some examples of cities whos pics can work well when we replace them with the images in the website
+
+**Assistant action:** Inspected the repository's image asset inventory and the frontend's image usage, then researched real-world urban water-management and sustainable-city examples.
