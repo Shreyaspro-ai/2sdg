@@ -206,3 +206,25 @@ Logging is enabled for questions and substantive task requests in this Codex cha
 **User message:** Uploaded the ZIP without accompanying text, following the request to analyze and revise the website.
 
 **Assistant action:** Inspected the built `dist` website, checked JavaScript syntax and image references, then created a first-pass revised ZIP with a demo-data disclaimer, backend-action notices, and review notes. Real-image replacement and a real backend remain outstanding.
+
+
+### Codex Entry R012 — 2026-10-10 (IST; exact time not recorded)
+
+**Activity:** Asked to replace generated scenery in the original AquaCity images with realistic imagery.
+
+**User message (verbatim):**
+
+> could you try and make those images not ai and make it look realistic
+
+**Assistant action:** After clarification, sourced licensed genuine photographs without visible watermarks and composited them into 13 reference images. Credits are provided separately; no AI image generation was used.
+
+
+### Codex Entry R013 — 2026-10-10 (IST; exact time not recorded)
+
+**Activity:** Requested that designs, text and labels be adapted to the genuine replacement photographs.
+
+**User message (verbatim):**
+
+> look, when u cahnge the iamges , right?, change the designs accoridngly, text, labels, so that they actually, use deep thinking for this
+
+**Assistant action:** Reworked scene labels and pointers, matched project and lesson descriptions to the photographs, identified actual locations, removed false historical before/after claims, and distinguished illustrative model values from real measurements. Packaged all 13 revised image references and photo credits in AquaCity-real-photo-redesign.zip in Downloads.
