@@ -570,3 +570,13 @@ Added on 2026-10-10 (IST). Original timestamps are unavailable. Text below recor
 > So, if done right, even 120 animations in a single web page will be amazing and gsap + lenis +barba.js webflow will be good for this
 
 **Assistant action:** Confirmed yes, with the conditions (consistent system, performance) and noted the Barba + Webflow setup points to handle.
+
+### Claude Entry C019 — 2026-10-22, 20:51 IST
+
+**Activity:** Asked Claude to connect Barba.js (GitHub repo link) to Claude.
+
+**User message (verbatim):**
+
+> connect barba.js to claude https://github.com/barbajs/barba.git
+
+**Assistant action:** Downloaded and checked the Barba.js repo (v2.10.3, packages: core, css, prefetch, router). Explained that Barba is a website library, not a connector, so nothing needs connecting: Claude can use it directly in the site.
