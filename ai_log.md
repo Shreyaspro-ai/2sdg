@@ -530,3 +530,13 @@ Added on 2026-10-10 (IST). Original timestamps are unavailable. Text below recor
 > www.era-residence.com       how were the animations of this website made, it looks like a premium, top class artifact
 
 **Assistant action:** Inspected the site's code: built in Webflow, with GSAP (ScrollTrigger, SplitText, CustomEase), Lenis smooth scroll, Barba.js page transitions and Lottie, with custom code hosted through Slater. Explained how each effect is made.
+
+### Claude Entry C016 — 2026-10-22, 19:31 IST
+
+**Activity:** Asked Claude to find more Awwwards websites like era-residence.com and decode their animations.
+
+**User message (verbatim):**
+
+> Find, more such websites in awwwards and decide their animations
+
+**Assistant action:** Picked 9 recent Awwwards Sites of the Day (real estate, luxury, studios), checked each one's Awwwards technology tags and page code, and summarised what each is built with and how its animations work, plus the common patterns.
