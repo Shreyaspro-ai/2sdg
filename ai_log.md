@@ -580,3 +580,13 @@ Added on 2026-10-10 (IST). Original timestamps are unavailable. Text below recor
 > connect barba.js to claude https://github.com/barbajs/barba.git
 
 **Assistant action:** Downloaded and checked the Barba.js repo (v2.10.3, packages: core, css, prefetch, router). Explained that Barba is a website library, not a connector, so nothing needs connecting: Claude can use it directly in the site.
+
+### Claude Entry C020 — 2026-10-22, 20:52 IST
+
+**Activity:** Asked whether Slater is necessary.
+
+**User message (verbatim):**
+
+> is slater necessary?
+
+**Assistant action:** Explained Slater is optional: it is just a place to write and host custom JavaScript for Webflow, and the same code can go in Webflow's custom code settings or a file hosted on GitHub/jsDelivr.
