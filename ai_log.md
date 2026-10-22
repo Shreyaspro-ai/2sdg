@@ -520,3 +520,13 @@ Added on 2026-10-10 (IST). Original timestamps are unavailable. Text below recor
 > What will u use webflow for? Animations?
 
 **Assistant action:** Explained that Webflow is mainly for building, hosting and editing the site, while GSAP and Lenis handle the animations; Webflow's own Interactions can add simple effects.
+
+### Claude Entry C015 — 2026-10-22, 19:25 IST
+
+**Activity:** Asked how the animations on era-residence.com were made, since the site looks premium and top class.
+
+**User message (verbatim):**
+
+> www.era-residence.com       how were the animations of this website made, it looks like a premium, top class artifact
+
+**Assistant action:** Inspected the site's code: built in Webflow, with GSAP (ScrollTrigger, SplitText, CustomEase), Lenis smooth scroll, Barba.js page transitions and Lottie, with custom code hosted through Slater. Explained how each effect is made.
