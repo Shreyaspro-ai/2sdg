@@ -500,3 +500,13 @@ Added on 2026-10-10 (IST). Original timestamps are unavailable. Text below recor
 > Fine, no scrollcraft
 
 **Assistant action:** Confirmed the plan without ScrollCraft: GSAP for animations, Lenis for smooth scrolling, built in Webflow.
+
+### Claude Entry C013 — 2026-10-22, 19:23 IST
+
+**Activity:** Asked what Claude will do once the HTML site is sent.
+
+**User message (verbatim):**
+
+> What will u do once I send the html site?
+
+**Assistant action:** Explained the step-by-step plan: review the site, plan the upgrade, rebuild the design, add GSAP animations and Lenis smooth scrolling, check it in a browser, then build it into the new Webflow site.
