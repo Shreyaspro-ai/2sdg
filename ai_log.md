@@ -550,3 +550,13 @@ Added on 2026-10-10 (IST). Original timestamps are unavailable. Text below recor
 > Is 120 scroll animations good for a website with 5 web pages
 
 **Assistant action:** Explained that the count matters less than having a few reusable animation types applied consistently, and that ERA's 120 were all on its homepage.
+
+### Claude Entry C018 — 2026-10-22, 19:42 IST
+
+**Activity:** Asked whether even 500 animations on one page would be amazing if done right, and whether GSAP + Lenis + Webflow suits this.
+
+**User message (verbatim):**
+
+> So, if done right, even 500 animations in a single web page will be amazing and gsap + lenis + webflow will be good for this
+
+**Assistant action:** Clarified that more animations do not make a page better (500 can run smoothly but won't add quality), and confirmed GSAP + Lenis + Webflow is a strong stack for this style.
