@@ -490,3 +490,13 @@ Added on 2026-10-10 (IST). Original timestamps are unavailable. Text below recor
 > https://github.com/nateherkai/scroll-craft.git
 
 **Assistant action:** Cloned and read the repo: ScrollCraft is an agent skill (design workflow + its own scroll engine) for premium scroll-driven sites. Confirmed Claude can follow it alongside GSAP, Lenis and Webflow, and noted the optional kie.ai key for generated imagery.
+
+### Claude Entry C012 — 2026-10-22, 19:22 IST
+
+**Activity:** Decided not to use ScrollCraft for the website upgrade.
+
+**User message (verbatim):**
+
+> Fine, no scrollcraft
+
+**Assistant action:** Confirmed the plan without ScrollCraft: GSAP for animations, Lenis for smooth scrolling, built in Webflow.
