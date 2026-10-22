@@ -480,3 +480,13 @@ Added on 2026-10-10 (IST). Original timestamps are unavailable. Text below recor
 > Can u enhance a website to make it awwwards winning worthy, if I give u an html site and u should  have and use gsap,webflow, and I just need to to add scrollcraft and lenis
 
 **Assistant action:** Confirmed it can be done, explained the plan (GSAP + Lenis smooth scroll, built into Webflow), and asked for a link to ScrollCraft since that library could not be identified.
+
+### Claude Entry C011 — 2026-10-22, 19:18 IST
+
+**Activity:** Shared the ScrollCraft repository link.
+
+**User message (verbatim):**
+
+> https://github.com/nateherkai/scroll-craft.git
+
+**Assistant action:** Cloned and read the repo: ScrollCraft is an agent skill (design workflow + its own scroll engine) for premium scroll-driven sites. Confirmed Claude can follow it alongside GSAP, Lenis and Webflow, and noted the optional kie.ai key for generated imagery.
