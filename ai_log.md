@@ -540,3 +540,13 @@ Added on 2026-10-10 (IST). Original timestamps are unavailable. Text below recor
 > Find, more such websites in awwwards and decide their animations
 
 **Assistant action:** Picked 9 recent Awwwards Sites of the Day (real estate, luxury, studios), checked each one's Awwwards technology tags and page code, and summarised what each is built with and how its animations work, plus the common patterns.
+
+### Claude Entry C017 — 2026-10-22, 19:41 IST
+
+**Activity:** Asked whether 120 scroll animations is good for a 5-page website.
+
+**User message (verbatim):**
+
+> Is 120 scroll animations good for a website with 5 web pages
+
+**Assistant action:** Explained that the count matters less than having a few reusable animation types applied consistently, and that ERA's 120 were all on its homepage.
