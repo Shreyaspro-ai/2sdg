@@ -510,3 +510,13 @@ Added on 2026-10-10 (IST). Original timestamps are unavailable. Text below recor
 > What will u do once I send the html site?
 
 **Assistant action:** Explained the step-by-step plan: review the site, plan the upgrade, rebuild the design, add GSAP animations and Lenis smooth scrolling, check it in a browser, then build it into the new Webflow site.
+
+### Claude Entry C014 — 2026-10-22, 19:24 IST
+
+**Activity:** Asked what Webflow will be used for, and whether it is for animations.
+
+**User message (verbatim):**
+
+> What will u use webflow for? Animations?
+
+**Assistant action:** Explained that Webflow is mainly for building, hosting and editing the site, while GSAP and Lenis handle the animations; Webflow's own Interactions can add simple effects.
