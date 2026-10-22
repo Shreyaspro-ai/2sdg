@@ -560,3 +560,13 @@ Added on 2026-10-10 (IST). Original timestamps are unavailable. Text below recor
 > So, if done right, even 500 animations in a single web page will be amazing and gsap + lenis + webflow will be good for this
 
 **Assistant action:** Clarified that more animations do not make a page better (500 can run smoothly but won't add quality), and confirmed GSAP + Lenis + Webflow is a strong stack for this style.
+
+### Claude Entry C018 — 2026-10-22, 19:43 IST
+
+**Activity:** Confirmed understanding that, done right, even 120 animations on one page can be great, and that GSAP + Lenis + Barba.js on Webflow is a good stack for it.
+
+**User message (verbatim):**
+
+> So, if done right, even 120 animations in a single web page will be amazing and gsap + lenis +barba.js webflow will be good for this
+
+**Assistant action:** Confirmed yes, with the conditions (consistent system, performance) and noted the Barba + Webflow setup points to handle.
